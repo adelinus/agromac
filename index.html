@@ -1,436 +1,874 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <title>PROIECT</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
-    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Cookie"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css" />
+    <link rel="stylesheet" href="assets/css/Pretty-Footer.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
 
-<body>
-    <nav class="navbar navbar-light navbar-expand-md fixed-top bg-white better-bootstrap-nav-left">
-        <div class="container"><a class="navbar-brand" href="index.html"><img id="logo-top" src="assets/img/logo.png"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#history">Istoric</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#products">Produse</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#gallery">Imagini</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#farmers">Agricultorii</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#testimonials">Marturii</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
+  <body>
+    <nav
+      class="navbar navbar-light navbar-expand-md fixed-top bg-white better-bootstrap-nav-left"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img id="logo-top" src="assets/img/logo.png" /></a
+        ><button
+          data-toggle="collapse"
+          class="navbar-toggler"
+          data-target="#navcol-1"
+        >
+          <span class="sr-only">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="nav navbar-nav">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#history">Istoric</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#products">Produse</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#gallery">Imagini</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#farmers">Agricultorii</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#testimonials">Marturii</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
         <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item" role="presentation" id="visible-shopping-cart"><span class="badge badge-primary">2</span><i class="fa fa-shopping-basket"></i></li>
+          <li class="nav-item" role="presentation" id="visible-shopping-cart">
+            <span class="badge badge-primary">2</span
+            ><i class="fa fa-shopping-basket"></i>
+          </li>
         </ul>
-        </div>
+      </div>
     </nav>
     <header class="masthead text-center text-white d-flex">
-        <div class="container my-auto">
-            <div class="row">
-                <div class="col-md-10 mx-auto">
-                    <div class="shadow-lg header-text-wrapper">
-                        <h1 class="text-uppercase" data-aos="fade-down" style="margin-bottom: 1rem;"><strong>Legume de la producător</strong></h1>
-                        <h2 data-aos="fade-right">Noi iti furnizam materia prima pentru a gati sanatos si hranitor.</h2><a class="btn btn-primary btn-xl js-scroll-trigger" role="button" data-aos="fade-left" href="#products">Cumpără acum!</a></div>
-                </div>
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-md-10 mx-auto">
+            <div class="shadow-lg header-text-wrapper">
+              <h1
+                class="text-uppercase"
+                data-aos="fade-down"
+                style="margin-bottom: 1rem"
+              >
+                <strong>Legume de la producător</strong>
+              </h1>
+              <h2 data-aos="fade-right">
+                Noi iti furnizam materia prima pentru a gati sanatos si
+                hranitor.
+              </h2>
+              <a
+                class="btn btn-primary btn-xl js-scroll-trigger"
+                role="button"
+                data-aos="fade-left"
+                href="#products"
+                >Cumpără acum!</a
+              >
             </div>
+          </div>
         </div>
+      </div>
     </header>
     <div class="mini-cart">
-        <div class="d-flex justify-content-between align-items-center cart-header">
-            <div class="cart-title">
-                <h3>Cosul tau</h3>
-            </div>
-            <div class="cart-close"><i class="fa fa-close"></i></div>
+      <div
+        class="d-flex justify-content-between align-items-center cart-header"
+      >
+        <div class="cart-title">
+          <h3>Cosul tau</h3>
         </div>
-        <div class="cart-products">
-            <div class="d-flex justify-content-between cart-item">
-                <div class="cart-img"><img class="img-fluid" src="assets/img/produs-rosii.jpg"></div>
-                <div class="d-flex flex-column justify-content-center cart-info">
-                    <h6 class="cart-item-name">Rosii</h6>
-                    <p>1&nbsp;<span class="cart-product-unit">kg</span>&nbsp;x&nbsp;<strong><span class="cart-product-price">4</span>&nbsp;Lei</strong></p>
-                </div>
-                <div class="d-flex align-items-center cart-remove-item"><i class="fa fa-trash-o"></i></div>
-            </div>
+        <div class="cart-close"><i class="fa fa-close"></i></div>
+      </div>
+      <div class="cart-products">
+        <div class="d-flex justify-content-between cart-item">
+          <div class="cart-img">
+            <img class="img-fluid" src="assets/img/produs-rosii.jpg" />
+          </div>
+          <div class="d-flex flex-column justify-content-center cart-info">
+            <h6 class="cart-item-name">Rosii</h6>
+            <p>
+              1&nbsp;<span class="cart-product-unit">kg</span
+              >&nbsp;x&nbsp;<strong
+                ><span class="cart-product-price">4</span>&nbsp;Lei</strong
+              >
+            </p>
+          </div>
+          <div class="d-flex align-items-center cart-remove-item">
+            <i class="fa fa-trash-o"></i>
+          </div>
         </div>
-        <div class="d-flex justify-content-between cart-total"><span>Total:</span><span><strong><span id="mini-cart-total-price">15</span>&nbsp;Lei</strong>
-            </span>
-        </div>
-        <div class="cart-checkout"><a class="btn btn-primary btn-block" href="cart.html">Vezi detalii cos</a></div>
+      </div>
+      <div class="d-flex justify-content-between cart-total">
+        <span>Total:</span
+        ><span
+          ><strong><span id="mini-cart-total-price">15</span>&nbsp;Lei</strong>
+        </span>
+      </div>
+      <div class="cart-checkout">
+        <a class="btn btn-primary btn-block" href="cart.html"
+          >Vezi detalii cos</a
+        >
+      </div>
     </div>
     <section id="history">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h2 class="text-center section-title"><span>Istoricul</span>&nbsp;nostru</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div>
-                        <ul class="nav nav-tabs">
-                            <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-1">1946</a></li>
-                            <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-2">1965</a></li>
-                            <li class="nav-item"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-3">1992</a></li>
-                            <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-4">2007</a></li>
-                        </ul>
-                        <div class="tab-content">
-                            <div class="tab-pane pt-3" role="tabpanel" id="tab-1">
-                                <h5>Dupa razboi</h5>
-                                <p>24 septembrie 1946</p>
-                                <p>Vitae saepe culpa beatae recusandae nesciunt nisi delectus fuga, facilis minus, consequatur tempora labore necessitatibus consectetur sit alias illum pariatur reiciendis dolorum qui hic animi, dignissimos cumque sed ratione
-                                    praesentium.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae nisi accusamus explicabo cum doloremque voluptatibus necessitatibus consequatur. Vitae saepe culpa beatae recusandae nesciunt nisi delectus fuga, facilis
-                                    minus, consequatur tempora labore necessitatibus consectetur sit alias illum pariatur reiciendis dolorum qui hic animi, dignissimos cumque sed ratione praesentium.</p>
-                            </div>
-                            <div class="tab-pane pt-3" role="tabpanel" id="tab-2">
-                                <h5>Colectivizarea</h5>
-                                <p>Martie 1965</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae nisi accusamus explicabo cum doloremque voluptatibus necessitatibus consequatur. Vitae saepe culpa beatae recusandae nesciunt nisi delectus fuga, facilis
-                                    minus, consequatur tempora labore necessitatibus consectetur sit alias illum pariatur reiciendis dolorum qui hic animi, dignissimos cumque sed ratione praesentium.</p>
-                                <p>Vitae saepe culpa beatae recusandae nesciunt nisi delectus fuga, facilis minus, consequatur tempora labore necessitatibus consectetur sit alias illum pariatur reiciendis dolorum qui hic animi, dignissimos cumque sed ratione
-                                    praesentium.</p>
-                            </div>
-                            <div class="tab-pane active pt-3" role="tabpanel" id="tab-3">
-                                <h5>Reorientarea dupa revolutie</h5>
-                                <p>12 aprilie 1992</p>
-                                <p>Vitae saepe culpa beatae recusandae nesciunt nisi delectus fuga, facilis minus, consequatur tempora labore necessitatibus consectetur sit alias illum pariatur reiciendis dolorum qui hic animi, dignissimos cumque sed ratione
-                                    praesentium.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae nisi accusamus explicabo cum doloremque voluptatibus necessitatibus consequatur. Vitae saepe culpa beatae recusandae nesciunt nisi delectus fuga, facilis
-                                    minus, consequatur tempora labore necessitatibus consectetur sit alias illum pariatur reiciendis dolorum qui hic animi, dignissimos cumque sed ratione praesentium.</p>
-                            </div>
-                            <div class="tab-pane pt-3" role="tabpanel" id="tab-4">
-                                <h5>Adaptarea la tehnologia moderna</h5>
-                                <p>August 2007</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae nisi accusamus explicabo cum doloremque voluptatibus necessitatibus consequatur. Vitae saepe culpa beatae recusandae nesciunt nisi delectus fuga, facilis
-                                    minus, consequatur tempora labore necessitatibus consectetur sit alias illum pariatur reiciendis dolorum qui hic animi, dignissimos cumque sed ratione praesentium.</p>
-                                <p>Vitae saepe culpa beatae recusandae nesciunt nisi delectus fuga, facilis minus, consequatur tempora labore necessitatibus consectetur sit alias illum pariatur reiciendis dolorum qui hic animi, dignissimos cumque sed ratione
-                                    praesentium.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center section-title">
+              <span>Istoricul</span>&nbsp;nostru
+            </h2>
+          </div>
         </div>
+        <div class="row">
+          <div class="col">
+            <div>
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link" role="tab" data-toggle="tab" href="#tab-1"
+                    >1946</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" role="tab" data-toggle="tab" href="#tab-2"
+                    >1965</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    role="tab"
+                    data-toggle="tab"
+                    href="#tab-3"
+                    >1992</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" role="tab" data-toggle="tab" href="#tab-4"
+                    >2007</a
+                  >
+                </li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane pt-3" role="tabpanel" id="tab-1">
+                  <h5>Dupa razboi</h5>
+                  <p>24 septembrie 1946</p>
+                  <p>
+                    Vitae saepe culpa beatae recusandae nesciunt nisi delectus
+                    fuga, facilis minus, consequatur tempora labore
+                    necessitatibus consectetur sit alias illum pariatur
+                    reiciendis dolorum qui hic animi, dignissimos cumque sed
+                    ratione praesentium.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Beatae nisi accusamus explicabo cum doloremque voluptatibus
+                    necessitatibus consequatur. Vitae saepe culpa beatae
+                    recusandae nesciunt nisi delectus fuga, facilis minus,
+                    consequatur tempora labore necessitatibus consectetur sit
+                    alias illum pariatur reiciendis dolorum qui hic animi,
+                    dignissimos cumque sed ratione praesentium.
+                  </p>
+                </div>
+                <div class="tab-pane pt-3" role="tabpanel" id="tab-2">
+                  <h5>Colectivizarea</h5>
+                  <p>Martie 1965</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Beatae nisi accusamus explicabo cum doloremque voluptatibus
+                    necessitatibus consequatur. Vitae saepe culpa beatae
+                    recusandae nesciunt nisi delectus fuga, facilis minus,
+                    consequatur tempora labore necessitatibus consectetur sit
+                    alias illum pariatur reiciendis dolorum qui hic animi,
+                    dignissimos cumque sed ratione praesentium.
+                  </p>
+                  <p>
+                    Vitae saepe culpa beatae recusandae nesciunt nisi delectus
+                    fuga, facilis minus, consequatur tempora labore
+                    necessitatibus consectetur sit alias illum pariatur
+                    reiciendis dolorum qui hic animi, dignissimos cumque sed
+                    ratione praesentium.
+                  </p>
+                </div>
+                <div class="tab-pane active pt-3" role="tabpanel" id="tab-3">
+                  <h5>Reorientarea dupa revolutie</h5>
+                  <p>12 aprilie 1992</p>
+                  <p>
+                    Vitae saepe culpa beatae recusandae nesciunt nisi delectus
+                    fuga, facilis minus, consequatur tempora labore
+                    necessitatibus consectetur sit alias illum pariatur
+                    reiciendis dolorum qui hic animi, dignissimos cumque sed
+                    ratione praesentium.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Beatae nisi accusamus explicabo cum doloremque voluptatibus
+                    necessitatibus consequatur. Vitae saepe culpa beatae
+                    recusandae nesciunt nisi delectus fuga, facilis minus,
+                    consequatur tempora labore necessitatibus consectetur sit
+                    alias illum pariatur reiciendis dolorum qui hic animi,
+                    dignissimos cumque sed ratione praesentium.
+                  </p>
+                </div>
+                <div class="tab-pane pt-3" role="tabpanel" id="tab-4">
+                  <h5>Adaptarea la tehnologia moderna</h5>
+                  <p>August 2007</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Beatae nisi accusamus explicabo cum doloremque voluptatibus
+                    necessitatibus consequatur. Vitae saepe culpa beatae
+                    recusandae nesciunt nisi delectus fuga, facilis minus,
+                    consequatur tempora labore necessitatibus consectetur sit
+                    alias illum pariatur reiciendis dolorum qui hic animi,
+                    dignissimos cumque sed ratione praesentium.
+                  </p>
+                  <p>
+                    Vitae saepe culpa beatae recusandae nesciunt nisi delectus
+                    fuga, facilis minus, consequatur tempora labore
+                    necessitatibus consectetur sit alias illum pariatur
+                    reiciendis dolorum qui hic animi, dignissimos cumque sed
+                    ratione praesentium.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="products">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h2 class="text-center section-title">Produse</h2>
-                </div>
-            </div>
-            <div class="row" id="products-container"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center section-title">Produse</h2>
+          </div>
         </div>
+        <div class="row" id="products-container"></div>
+      </div>
     </section>
     <div id="gallery" class="photo-gallery">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Galeria de imagini</h2>
-                <p class="text-center">Va prezentam cateva imagini din activitatea noastra zilnica.</p>
-            </div>
-            <div class="row photos">
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/gallery01.jpg"><img class="img-fluid" src="assets/img/gallery01.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/gallery02.jpg"><img class="img-fluid" src="assets/img/gallery02.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/gallery03.jpg"><img class="img-fluid" src="assets/img/gallery03.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/gallery04.jpg"><img class="img-fluid" src="assets/img/gallery04.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/gallery05.jpg"><img class="img-fluid" src="assets/img/gallery05.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/gallery06.jpg"><img class="img-fluid" src="assets/img/gallery06.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/gallery07.jpg"><img class="img-fluid" src="assets/img/gallery07.jpg"></a></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/gallery08.jpg"><img class="img-fluid" src="assets/img/gallery08.jpg"></a></div>
-            </div>
+      <div class="container">
+        <div class="intro">
+          <h2 class="text-center">Galeria de imagini</h2>
+          <p class="text-center">
+            Va prezentam cateva imagini din activitatea noastra zilnica.
+          </p>
         </div>
+        <div class="row photos">
+          <div class="col-sm-6 col-md-4 col-lg-3 item">
+            <a data-lightbox="photos" href="assets/img/gallery01.jpg"
+              ><img class="img-fluid" src="assets/img/gallery01.jpg"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 item">
+            <a data-lightbox="photos" href="assets/img/gallery02.jpg"
+              ><img class="img-fluid" src="assets/img/gallery02.jpg"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 item">
+            <a data-lightbox="photos" href="assets/img/gallery03.jpg"
+              ><img class="img-fluid" src="assets/img/gallery03.jpg"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 item">
+            <a data-lightbox="photos" href="assets/img/gallery04.jpg"
+              ><img class="img-fluid" src="assets/img/gallery04.jpg"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 item">
+            <a data-lightbox="photos" href="assets/img/gallery05.jpg"
+              ><img class="img-fluid" src="assets/img/gallery05.jpg"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 item">
+            <a data-lightbox="photos" href="assets/img/gallery06.jpg"
+              ><img class="img-fluid" src="assets/img/gallery06.jpg"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 item">
+            <a data-lightbox="photos" href="assets/img/gallery07.jpg"
+              ><img class="img-fluid" src="assets/img/gallery07.jpg"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 item">
+            <a data-lightbox="photos" href="assets/img/gallery08.jpg"
+              ><img class="img-fluid" src="assets/img/gallery08.jpg"
+            /></a>
+          </div>
+        </div>
+      </div>
     </div>
     <section id="farmers" class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h2 class="text-center section-title">Agricultorii</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="card" id="team1-1">
-                        <div class="row no-gutters">
-                            <div class="col"><img class="img-fluid" src="assets/img/team1.jpg"></div>
-                            <div class="col">
-                                <div class="card-body">
-                                    <h5>Cosmin Stana</h5>
-                                    <p>Este inginerul nostru, expert in agricultura.&nbsp;</p>
-                                    <div><a href="#"><i class="fa fa-linkedin-square"></i></a><a href="#"><i class="fa fa-facebook-square"></i></a><a href="#"><i class="fa fa-twitter-square"></i></a><a href="#"><i class="fa fa-youtube-square"></i></a><a href="#"><i class="fa fa-pinterest-square"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" id="team1-2"><img class="card-img-top w-100 d-block" src="assets/img/team1.jpg">
-                        <div class="card-body">
-                            <h5>Cosmin Stana</h5>
-                            <p>El este inginerul nostru, doctorand in agricultura, este foarte priceput in ceea ce face si lui ii datoram succesul recoltelor bogate. &nbsp;</p>
-                            <div><a href="#"><i class="fa fa-linkedin-square"></i></a><a href="#"><i class="fa fa-facebook-square"></i></a><a href="#"><i class="fa fa-twitter-square"></i></a><a href="#"><i class="fa fa-youtube-square"></i></a><a href="#"><i class="fa fa-pinterest-square"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="card my-4" id="team2-1">
-                        <div class="row no-gutters">
-                            <div class="col">
-                                <div class="card-body">
-                                    <h5>Alex Mercea</h5>
-                                    <p>Este agricultor de cand se stie. E sufletul echipei!</p>
-                                    <div><a href="#"><i class="fa fa-linkedin-square"></i></a><a href="#"><i class="fa fa-facebook-square"></i></a><a href="#"><i class="fa fa-twitter-square"></i></a><a href="#"><i class="fa fa-youtube-square"></i></a><a href="#"><i class="fa fa-pinterest-square"></i></a></div>
-                                </div>
-                            </div>
-                            <div class="col"><img class="img-fluid" src="assets/img/team2.jpg"></div>
-                        </div>
-                    </div>
-                    <div class="card my-4" id="team2-2"><img class="card-img-top w-100 d-block" src="assets/img/team2.jpg">
-                        <div class="card-body">
-                            <h5>Alex Mercea</h5>
-                            <p>Este agricultor de cand s-a nascut iar in prezent este student la facultatea de agronomie.<br></p>
-                            <div><a href="#"><i class="fa fa-linkedin-square"></i></a><a href="#"><i class="fa fa-facebook-square"></i></a><a href="#"><i class="fa fa-twitter-square"></i></a><a href="#"><i class="fa fa-youtube-square"></i></a><a href="#"><i class="fa fa-pinterest-square"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" id="team3-1">
-                        <div class="row no-gutters">
-                            <div class="col"><img class="img-fluid" src="assets/img/team3-1.jpg"></div>
-                            <div class="col">
-                                <div class="card-body">
-                                    <h5>Eugen Gabor</h5>
-                                    <p>Cel mai bun in ingrijirea plantelor din solar.<br></p>
-                                    <div><a href="#"><i class="fa fa-linkedin-square"></i></a><a href="#"><i class="fa fa-facebook-square"></i></a><a href="#"><i class="fa fa-twitter-square"></i></a><a href="#"><i class="fa fa-youtube-square"></i></a><a href="#"><i class="fa fa-pinterest-square"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" id="team3-2"><img class="card-img-top w-100 d-block" src="assets/img/team3-2.jpg">
-                        <div class="card-body">
-                            <h5>Eugen Gabor</h5>
-                            <p>Este cel mai bun in ingrijirea plantelor din solar.</p>
-                            <div><a href="#"><i class="fa fa-linkedin-square"></i></a><a href="#"><i class="fa fa-facebook-square"></i></a><a href="#"><i class="fa fa-twitter-square"></i></a><a href="#"><i class="fa fa-youtube-square"></i></a><a href="#"><i class="fa fa-pinterest-square"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center section-title">Agricultorii</h2>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-md-8">
+            <div class="card" id="team1-1">
+              <div class="row no-gutters">
+                <div class="col">
+                  <img class="img-fluid" src="assets/img/team1.jpg" />
+                </div>
+                <div class="col">
+                  <div class="card-body">
+                    <h5>Cosmin Stana</h5>
+                    <p>Este inginerul nostru, expert in agricultura.&nbsp;</p>
+                    <div>
+                      <a href="#"><i class="fa fa-linkedin-square"></i></a
+                      ><a href="#"><i class="fa fa-facebook-square"></i></a
+                      ><a href="#"><i class="fa fa-twitter-square"></i></a
+                      ><a href="#"><i class="fa fa-youtube-square"></i></a
+                      ><a href="#"><i class="fa fa-pinterest-square"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" id="team1-2">
+              <img
+                class="card-img-top w-100 d-block"
+                src="assets/img/team1.jpg"
+              />
+              <div class="card-body">
+                <h5>Cosmin Stana</h5>
+                <p>
+                  El este inginerul nostru, doctorand in agricultura, este
+                  foarte priceput in ceea ce face si lui ii datoram succesul
+                  recoltelor bogate. &nbsp;
+                </p>
+                <div>
+                  <a href="#"><i class="fa fa-linkedin-square"></i></a
+                  ><a href="#"><i class="fa fa-facebook-square"></i></a
+                  ><a href="#"><i class="fa fa-twitter-square"></i></a
+                  ><a href="#"><i class="fa fa-youtube-square"></i></a
+                  ><a href="#"><i class="fa fa-pinterest-square"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card my-4" id="team2-1">
+              <div class="row no-gutters">
+                <div class="col">
+                  <div class="card-body">
+                    <h5>Alex Mercea</h5>
+                    <p>Este agricultor de cand se stie. E sufletul echipei!</p>
+                    <div>
+                      <a href="#"><i class="fa fa-linkedin-square"></i></a
+                      ><a href="#"><i class="fa fa-facebook-square"></i></a
+                      ><a href="#"><i class="fa fa-twitter-square"></i></a
+                      ><a href="#"><i class="fa fa-youtube-square"></i></a
+                      ><a href="#"><i class="fa fa-pinterest-square"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <img class="img-fluid" src="assets/img/team2.jpg" />
+                </div>
+              </div>
+            </div>
+            <div class="card my-4" id="team2-2">
+              <img
+                class="card-img-top w-100 d-block"
+                src="assets/img/team2.jpg"
+              />
+              <div class="card-body">
+                <h5>Alex Mercea</h5>
+                <p>
+                  Este agricultor de cand s-a nascut iar in prezent este student
+                  la facultatea de agronomie.<br />
+                </p>
+                <div>
+                  <a href="#"><i class="fa fa-linkedin-square"></i></a
+                  ><a href="#"><i class="fa fa-facebook-square"></i></a
+                  ><a href="#"><i class="fa fa-twitter-square"></i></a
+                  ><a href="#"><i class="fa fa-youtube-square"></i></a
+                  ><a href="#"><i class="fa fa-pinterest-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" id="team3-1">
+              <div class="row no-gutters">
+                <div class="col">
+                  <img class="img-fluid" src="assets/img/team3-1.jpg" />
+                </div>
+                <div class="col">
+                  <div class="card-body">
+                    <h5>Eugen Gabor</h5>
+                    <p>Cel mai bun in ingrijirea plantelor din solar.<br /></p>
+                    <div>
+                      <a href="#"><i class="fa fa-linkedin-square"></i></a
+                      ><a href="#"><i class="fa fa-facebook-square"></i></a
+                      ><a href="#"><i class="fa fa-twitter-square"></i></a
+                      ><a href="#"><i class="fa fa-youtube-square"></i></a
+                      ><a href="#"><i class="fa fa-pinterest-square"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" id="team3-2">
+              <img
+                class="card-img-top w-100 d-block"
+                src="assets/img/team3-2.jpg"
+              />
+              <div class="card-body">
+                <h5>Eugen Gabor</h5>
+                <p>Este cel mai bun in ingrijirea plantelor din solar.</p>
+                <div>
+                  <a href="#"><i class="fa fa-linkedin-square"></i></a
+                  ><a href="#"><i class="fa fa-facebook-square"></i></a
+                  ><a href="#"><i class="fa fa-twitter-square"></i></a
+                  ><a href="#"><i class="fa fa-youtube-square"></i></a
+                  ><a href="#"><i class="fa fa-pinterest-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="testimonials">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h2 class="text-center section-title" style="color: #ffffff;">Marturii</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="carousel slide" data-ride="carousel" id="carousel-1">
-                        <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-2 offset-2" style="background-color: transparent;"><img class="rounded-circle img-fluid" src="assets/img/marturie1.jpg"></div>
-                                    <div class="col-md-6">
-                                        <p style="color: #ffffff;">" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in dolor eget lacus varius aliquam. Aliquam ac dictum nisi. Duis et ipsum pretium, dignissim magna eget, interdum mi."<br></p>
-                                        <p style="color: #ffff00;">Ion Popescu</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-md-2 offset-2" style="background-color: transparent;"><img class="rounded-circle img-fluid" src="assets/img/marturie2.jpg"></div>
-                                    <div class="col-md-6">
-                                        <p style="color: #ffffff;">" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in dolor eget lacus varius aliquam. Aliquam ac nisi. Duis et ipsum pretium, dignissim magna eget, interdum mi."<br></p>
-                                        <p style="color: #ffff00;">Elena Nastase</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-2 offset-2" style="background-color: transparent;"><img class="rounded-circle img-fluid" src="assets/img/marturie3.jpg"></div>
-                                    <div class="col-md-6">
-                                        <p style="color: #ffffff;">" Lorem ipsum dolor sit amet, consectetur adipiscing. Nunc in dolor eget lacus varius aliquam. Aliquam ac dictum nisi. Duis et ipsum pretium, dignissim magna eget, interdum mi."<br></p>
-                                        <p style="color: #ffff00;">Daniel Antonescu</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button"
-                                data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
-                        <ol class="carousel-indicators" style="margin-bottom: 0;">
-                            <li data-target="#carousel-1" data-slide-to="0"></li>
-                            <li data-target="#carousel-1" data-slide-to="1" class="active"></li>
-                            <li data-target="#carousel-1" data-slide-to="2"></li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center section-title" style="color: #ffffff">
+              Marturii
+            </h2>
+          </div>
         </div>
+        <div class="row">
+          <div class="col">
+            <div class="carousel slide" data-ride="carousel" id="carousel-1">
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item">
+                  <div class="row">
+                    <div
+                      class="col-md-2 offset-2"
+                      style="background-color: transparent"
+                    >
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="assets/img/marturie1.jpg"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <p style="color: #ffffff">
+                        " Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Nunc in dolor eget lacus varius aliquam. Aliquam
+                        ac dictum nisi. Duis et ipsum pretium, dignissim magna
+                        eget, interdum mi."<br />
+                      </p>
+                      <p style="color: #ffff00">Ion Popescu</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div
+                      class="col-md-2 offset-2"
+                      style="background-color: transparent"
+                    >
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="assets/img/marturie2.jpg"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <p style="color: #ffffff">
+                        " Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Nunc in dolor eget lacus varius aliquam. Aliquam
+                        ac nisi. Duis et ipsum pretium, dignissim magna eget,
+                        interdum mi."<br />
+                      </p>
+                      <p style="color: #ffff00">Elena Nastase</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div
+                      class="col-md-2 offset-2"
+                      style="background-color: transparent"
+                    >
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="assets/img/marturie3.jpg"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <p style="color: #ffffff">
+                        " Lorem ipsum dolor sit amet, consectetur adipiscing.
+                        Nunc in dolor eget lacus varius aliquam. Aliquam ac
+                        dictum nisi. Duis et ipsum pretium, dignissim magna
+                        eget, interdum mi."<br />
+                      </p>
+                      <p style="color: #ffff00">Daniel Antonescu</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <a
+                  class="carousel-control-prev"
+                  href="#carousel-1"
+                  role="button"
+                  data-slide="prev"
+                  ><span class="carousel-control-prev-icon"></span
+                  ><span class="sr-only">Previous</span></a
+                ><a
+                  class="carousel-control-next"
+                  href="#carousel-1"
+                  role="button"
+                  data-slide="next"
+                  ><span class="carousel-control-next-icon"></span
+                  ><span class="sr-only">Next</span></a
+                >
+              </div>
+              <ol class="carousel-indicators" style="margin-bottom: 0">
+                <li data-target="#carousel-1" data-slide-to="0"></li>
+                <li
+                  data-target="#carousel-1"
+                  data-slide-to="1"
+                  class="active"
+                ></li>
+                <li data-target="#carousel-1" data-slide-to="2"></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="text-center" id="partners">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col">
-                    <h2 class="text-center section-title">Parteneri</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 offset-xl-1 my-3"><img class="img-fluid" src="assets/img/partners1.png"></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 my-3"><img class="img-fluid" src="assets/img/partners2.png"></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 my-3"><img class="img-fluid" src="assets/img/partners3.png"></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 my-3"><img class="img-fluid" src="assets/img/partners4.png"></div>
-                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 my-3"><img class="img-fluid" src="assets/img/partners5.png"></div>
-            </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center section-title">Parteneri</h2>
+          </div>
         </div>
+        <div class="row">
+          <div
+            class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 offset-xl-1 my-3"
+          >
+            <img class="img-fluid" src="assets/img/partners1.png" />
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 my-3">
+            <img class="img-fluid" src="assets/img/partners2.png" />
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 my-3">
+            <img class="img-fluid" src="assets/img/partners3.png" />
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 my-3">
+            <img class="img-fluid" src="assets/img/partners4.png" />
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 my-3">
+            <img class="img-fluid" src="assets/img/partners5.png" />
+          </div>
+        </div>
+      </div>
     </section>
     <section id="contact">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <h2 class="text-center section-title">Colaborare și contact</h2>
-                </div>
-            </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center section-title">Colaborare și contact</h2>
+          </div>
         </div>
-        <div id="newsletter" class="my-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <figure class="figure" id="newsletter-photo-figure"><img class="img-fluid figure-img" src="assets/img/farmer-newsletter.png"></figure>
-                    </div>
-                    <div class="col-md-6 align-self-center py-3">
-                        <h5 class="text-center">Newsletter</h5>
-                        <p>Vrei sa ramai la curent cu aparitia unor produse sau cu scaderile de pret? Nu ezita sa te abonezi la newsletterul nostru si vei deveni un consumator informat. Fa-o chiar acum!&nbsp;</p>
-                        <form id="newsletter-form">
-                            <div class="form-group"><input class="form-control" type="text" id="newsletter-name" required="" placeholder="Nume" minlength="2" maxlength="30" pattern="^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$"></div>
-                            <div class="form-group"><input class="form-control" type="email" id="newsletter-email" placeholder="Adresa de email" required=""></div><button class="btn btn-primary" id="newsletter-submit" type="submit">Trimite</button></form>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
+      <div id="newsletter" class="my-5">
         <div class="container">
-            <div class="row">
-                <div class="col-md-5 my-5">
-                    <div class="table-responsive border rounded shadow-sm">
-                        <table class="table table-sm">
-                            <thead>
-                                <tr>
-                                    <th class="text-center" colspan="2"><i class="fa fa-clock-o"></i>&nbsp;Orar de lucru</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Luni - vineri:<br></td>
-                                    <td>8:00 - 20:00</td>
-                                </tr>
-                                <tr>
-                                    <td>Duminică:</td>
-                                    <td>10:00 - 20:00</td>
-                                </tr>
-                                <tr>
-                                    <td>Sâmbătă:</td>
-                                    <td>închis</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="col-md-7 my-5">
-                    <div class="table-responsive border rounded shadow-sm">
-                        <table class="table table-sm">
-                            <thead>
-                                <tr>
-                                    <th class="text-center" colspan="2"><i class="fa fa-calendar"></i>&nbsp;Ne gasiți în urmatoarele piețe:</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Duminică, marți, vineri:<br></td>
-                                    <td>Arad (piața Mihai Viteazu)</td>
-                                </tr>
-                                <tr>
-                                    <td>Luni:</td>
-                                    <td>Curtici</td>
-                                </tr>
-                                <tr>
-                                    <td>Miercuri:</td>
-                                    <td>Macea</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-md-6">
+              <figure class="figure" id="newsletter-photo-figure">
+                <img
+                  class="img-fluid figure-img"
+                  src="assets/img/farmer-newsletter.png"
+                />
+              </figure>
             </div>
-            <div class="row">
-                <div class="col my-5">
-                    <div class="table-responsive shadow-sm table-borderless">
-                        <table class="table table-sm">
-                            <thead>
-                                <tr>
-                                    <th class="text-center"><i class="fa fa-truck"></i>&nbsp;Livrare</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Livrarea produselor comandate de dumneavoastră se realizează cu ajutorul curierului în maxim 48 de ore în orice locație din țară. Pentru comenzile din raza noastră de activitate (Macea, Arad și localitățile din împrejurimi)
-                                        ne vom deplasa noi spre a le onora, vă vom contacta telefonic cu cel pușin 3 ore înainte.<br></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+            <div class="col-md-6 align-self-center py-3">
+              <h5 class="text-center">Newsletter</h5>
+              <p>
+                Vrei sa ramai la curent cu aparitia unor produse sau cu
+                scaderile de pret? Nu ezita sa te abonezi la newsletterul nostru
+                si vei deveni un consumator informat. Fa-o chiar acum!&nbsp;
+              </p>
+              <form id="newsletter-form">
+                <div class="form-group">
+                  <input
+                    class="form-control"
+                    type="text"
+                    id="newsletter-name"
+                    required=""
+                    placeholder="Nume"
+                    minlength="2"
+                    maxlength="30"
+                    pattern="^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$"
+                  />
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 my-5"><iframe class="border rounded" allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBEKhB1GdF6k5LIIem8vafca7c6ZoiOe7U&amp;q=Macea&amp;zoom=10" width="100%" height="300"></iframe></div>
-                <div class="col-lg-6 my-5">
-                    <form id="contact-form">
-                        <div class="form-group"><input class="form-control form-control-sm" type="text" id="contact-name" placeholder="Nume" required="" minlength="2" maxlength="30" pattern="^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$"></div>
-                        <div class="form-group"><input class="form-control form-control-sm" type="email" id="contact-email" placeholder="Adresa de email" required=""></div>
-                        <div class="form-group"><textarea class="form-control form-control-sm" id="contact-message" placeholder="Mesaj" required="" minlength="10" maxlength="1000" rows="6"></textarea></div>
-                        <div class="form-group"><button class="btn btn-primary" id="contact-submit" type="button">Trimite</button></div>
-                    </form>
+                <div class="form-group">
+                  <input
+                    class="form-control"
+                    type="email"
+                    id="newsletter-email"
+                    placeholder="Adresa de email"
+                    required=""
+                  />
                 </div>
+                <button
+                  class="btn btn-primary"
+                  id="newsletter-submit"
+                  type="submit"
+                >
+                  Trimite
+                </button>
+              </form>
             </div>
+          </div>
         </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 my-5">
+            <div class="table-responsive border rounded shadow-sm">
+              <table class="table table-sm">
+                <thead>
+                  <tr>
+                    <th class="text-center" colspan="2">
+                      <i class="fa fa-clock-o"></i>&nbsp;Orar de lucru
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Luni - vineri:<br /></td>
+                    <td>8:00 - 20:00</td>
+                  </tr>
+                  <tr>
+                    <td>Duminică:</td>
+                    <td>10:00 - 20:00</td>
+                  </tr>
+                  <tr>
+                    <td>Sâmbătă:</td>
+                    <td>închis</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-md-7 my-5">
+            <div class="table-responsive border rounded shadow-sm">
+              <table class="table table-sm">
+                <thead>
+                  <tr>
+                    <th class="text-center" colspan="2">
+                      <i class="fa fa-calendar"></i>&nbsp;Ne gasiți în
+                      urmatoarele piețe:
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Duminică, marți, vineri:<br /></td>
+                    <td>Arad (piața Mihai Viteazu)</td>
+                  </tr>
+                  <tr>
+                    <td>Luni:</td>
+                    <td>Curtici</td>
+                  </tr>
+                  <tr>
+                    <td>Miercuri:</td>
+                    <td>Macea</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col my-5">
+            <div class="table-responsive shadow-sm table-borderless">
+              <table class="table table-sm">
+                <thead>
+                  <tr>
+                    <th class="text-center">
+                      <i class="fa fa-truck"></i>&nbsp;Livrare
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      Livrarea produselor comandate de dumneavoastră se
+                      realizează cu ajutorul curierului în maxim 48 de ore în
+                      orice locație din țară. Pentru comenzile din raza noastră
+                      de activitate (Macea, Arad și localitățile din
+                      împrejurimi) ne vom deplasa noi spre a le onora, vă vom
+                      contacta telefonic cu cel pușin 3 ore înainte.<br />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 my-5">
+            <iframe
+              class="border rounded"
+              allowfullscreen=""
+              frameborder="0"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBEKhB1GdF6k5LIIem8vafca7c6ZoiOe7U&amp;q=Macea&amp;zoom=10"
+              width="100%"
+              height="300"
+            ></iframe>
+          </div>
+          <div class="col-lg-6 my-5">
+            <form id="contact-form">
+              <div class="form-group">
+                <input
+                  class="form-control form-control-sm"
+                  type="text"
+                  id="contact-name"
+                  placeholder="Nume"
+                  required=""
+                  minlength="2"
+                  maxlength="30"
+                  pattern="^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control form-control-sm"
+                  type="email"
+                  id="contact-email"
+                  placeholder="Adresa de email"
+                  required=""
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  class="form-control form-control-sm"
+                  id="contact-message"
+                  placeholder="Mesaj"
+                  required=""
+                  minlength="10"
+                  maxlength="1000"
+                  rows="6"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <button
+                  class="btn btn-primary"
+                  id="contact-submit"
+                  type="button"
+                >
+                  Trimite
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
-    <footer style="background-color: #212529;">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-4 footer-navigation">
-                    <h3><a href="index.html"><img id="logo-bottom" src="assets/img/logo-bottom.png"></a></h3>
-                    <p class="links"><a href="#history">Istoric</a><strong> · </strong><a href="#products">Produse</a><strong>&nbsp;·&nbsp;</strong><a href="#gallery">Imagini</a><strong> · </strong><a href="#farmers">Agricultorii</a><strong> · </strong><a href="#testimonials">Marturii</a><strong> · </strong>
-                        <a
-                            href="#contact">Contact</a>
-                    </p>
-                    <p class="company-name">AgroMac © 2020</p>
-                </div>
-                <div class="col-sm-6 col-md-4 footer-contacts">
-                    <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
-                        <p><span class="new-line-span">nr. 1283</span> Macea, Arad, Romania</p>
-                    </div>
-                    <div><i class="fa fa-phone footer-contacts-icon"></i>
-                        <p class="footer-center-info email text-left">0752323768</p>
-                    </div>
-                    <div><i class="fa fa-envelope footer-contacts-icon"></i>
-                        <p> <a href="#" target="_blank">support@agromac.ro</a></p>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-md-4 footer-about">
-                    <h4>Despre noi</h4>
-                    <p>Comercializam fructe si legume din productie proprie. Furnizam produse proaspete de calitate superioara. Ne puteti gasi in pietele din Macea, Arad, Santana si Chisineu-Cris.&nbsp;</p>
-                    <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
-                </div>
+    <footer style="background-color: #212529">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 footer-navigation">
+            <h3>
+              <a href="index.html"
+                ><img id="logo-bottom" src="assets/img/logo-bottom.png"
+              /></a>
+            </h3>
+            <p class="links">
+              <a href="#history">Istoric</a><strong> · </strong
+              ><a href="#products">Produse</a><strong>&nbsp;·&nbsp;</strong
+              ><a href="#gallery">Imagini</a><strong> · </strong
+              ><a href="#farmers">Agricultorii</a><strong> · </strong
+              ><a href="#testimonials">Marturii</a><strong> · </strong>
+              <a href="#contact">Contact</a>
+            </p>
+            <p class="company-name">AgroMac © 2020</p>
+          </div>
+          <div class="col-sm-6 col-md-4 footer-contacts">
+            <div>
+              <span class="fa fa-map-marker footer-contacts-icon"> </span>
+              <p>
+                <span class="new-line-span">nr. 1283</span> Macea, Arad, Romania
+              </p>
             </div>
+            <div>
+              <i class="fa fa-phone footer-contacts-icon"></i>
+              <p class="footer-center-info email text-left">0752323768</p>
+            </div>
+            <div>
+              <i class="fa fa-envelope footer-contacts-icon"></i>
+              <p><a href="#" target="_blank">support@agromac.ro</a></p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="col-md-4 footer-about">
+            <h4>Despre noi</h4>
+            <p>
+              Comercializam fructe si legume din productie proprie. Furnizam
+              produse proaspete de calitate superioara. Ne puteti gasi in
+              pietele din Macea, Arad, Santana si Chisineu-Cris.&nbsp;
+            </p>
+            <div class="social-links social-icons">
+              <a href="#"><i class="fa fa-facebook"></i></a
+              ><a href="#"><i class="fa fa-twitter"></i></a
+              ><a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
         </div>
-    </footer><button class="btn" id="topBtn" type="button"><i class="fa fa-arrow-up"></i></button>
+      </div>
+    </footer>
+    <button class="btn" id="topBtn" type="button">
+      <i class="fa fa-arrow-up"></i>
+    </button>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-animation.js"></script>
@@ -440,6 +878,5 @@
     <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase.js"></script>
     <script src="assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>
